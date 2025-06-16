@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pklz
+*.db
+*.sqlite
+*.log
+
+visualization/
