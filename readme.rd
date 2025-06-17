@@ -66,5 +66,4 @@ A aplicação Flask definida em `start.py` expõe as seguintes rotas:
 - Para treinar o modelo é necessário invocar a rota `/inicia_treino`
 - Para visualizar o relatório do treinamento, deve invocar a home, `/`
 - Para executar o projeto é necessário ter o Docker instalado.
-
 ---
