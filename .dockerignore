@@ -1,0 +1,23 @@
+# Ignora arquivos e pastas desnecessários para a imagem Docker
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+.env.*
+*.egg-info/
+*.bak
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.ipynb_checkpoints/
+tests/
+.git
+.gitignore
+static/
+.devcontainer/

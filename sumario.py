@@ -1,4 +1,7 @@
+import sys
+
 def gerar_sumario():
+    #sys.stdout = open(caminho_conteudo, 'w', encoding=encoding)
     print("""
           _________________________________________________________________________________________________
            Projeto – Machine Learning e explicabilidade
@@ -7,7 +10,10 @@ def gerar_sumario():
             Professor Eric Keiji Tokuda
             Base de dados de pavimentação de estradas
             Versão 1.0
-            Desenvolvido por Gilson Araujo de Souza
+            Desenvolvido por 
+                Gilson Araujo de Souza
+                Jefferson Damasceno
+                Renan Ortega
             Data 16/06/2026
             Base obtida em https://www.kaggle.com/datasets/gifreysulay/pavement-dataset
         
@@ -25,5 +31,6 @@ def gerar_sumario():
                 6. Avaliação do modelo
           _________________________________________________________________________________________________
           """)
+    #sys.stdout.close()
 
 

@@ -18,10 +18,10 @@ def visualizar_em_graficos(data_carregado):
 
     print("""
           
-
 >>> Fim passo 4: Visualização dos dados <<<
 -----------------------------------------------------------------------------------------
 
+          
           """)
     return dados
 
@@ -50,10 +50,8 @@ def visualizar_exploracao_inicial(dados, diretorio_saida):
     plt.savefig(f'{diretorio_saida}/01_distribuicoes_principais.png', dpi=300, bbox_inches='tight')
     plt.close()
 
-    print("""
-          
-* Visualização inicial das distribuições das variáveis principais concluída.
-          """)
+    print("")
+    print("* Distribuições das variáveis principais. Imagem será exibida na sessão Visualizações, no final da página.")
     
 
 def visualizar_analise_categorica(dados, diretorio_saida):
@@ -84,14 +82,12 @@ def visualizar_analise_categorica(dados, diretorio_saida):
     plt.savefig(f'{diretorio_saida}/02_analise_categorica.png', dpi=300, bbox_inches='tight')
     plt.close()
 
-    print("""
-          
-* Visualização análise categórica.
-          """)
+    print("")
+    print("* Análise categórica. Imagem será exibida na sessão Visualizações, no final da página.")
     
 
 def criar_diretorio_visualizacoes_vazio():
-    diretorio_saida = 'visualizations'
+    diretorio_saida = './static/images'
 
     if not os.path.exists(diretorio_saida):
         os.makedirs(diretorio_saida)
